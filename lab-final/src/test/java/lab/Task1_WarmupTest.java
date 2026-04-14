@@ -113,9 +113,11 @@ public class Task1_WarmupTest {
          * above, re-run the tests, and paste two lines of output here.
          *
          * YOUR ANSWER:
-         * Line 1: timestamp = 2026-04-14T11:31:51.571745400, Task1
-         * WarmupTest:palindromeIsItsOwnReverse =
-         * Line 2: tries = 500 | # of calls to property
+         * timestamp = 2026-04-14T15:37:28.100550800, generated =
+         * arg0: "nwldaawshjqgkxexmgvwvaxdhcbwyvacqurvxh"
+         *
+         * timestamp = 2026-04-14T15:37:28.105269800, generated =
+         * arg0: "bnwmgdimkfkzoyuvdapdadpfdhdmbuygtqmoxcprdzm"
          *
          */
         @Property(tries = 500)
