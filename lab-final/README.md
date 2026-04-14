@@ -1,14 +1,15 @@
 # Property-Based Testing Lab
+
 **SE 3004 Software Testing | Mugla Sitki Kocman University**
 
 ---
 
 ## Student Information
 
-| | Student 1 | Student 2 |
-|---|---|---|
-| **Name** | | |
-| **Student ID** | | |
+|                | Student 1                | Student 2 |
+| -------------- | ------------------------ | --------- |
+| **Name**       | Muhammed Mustafa Özdemir |           |
+| **Student ID** | 220717009                |           |
 
 > Fill in your names and IDs before your first commit.
 
@@ -18,10 +19,10 @@
 
 ### Requirements
 
-| Tool | Version | Download |
-|------|---------|----------|
-| Java JDK | 17 or higher | [adoptium.net](https://adoptium.net) |
-| Maven | 3.8 or higher | [maven.apache.org](https://maven.apache.org) |
+| Tool          | Version            | Download                                                                                  |
+| ------------- | ------------------ | ----------------------------------------------------------------------------------------- |
+| Java JDK      | 17 or higher       | [adoptium.net](https://adoptium.net)                                                      |
+| Maven         | 3.8 or higher      | [maven.apache.org](https://maven.apache.org)                                              |
 | IntelliJ IDEA | Any recent version | [jetbrains.com/idea](https://www.jetbrains.com/idea/download) (Community Edition is free) |
 
 ### Steps
@@ -34,9 +35,11 @@
 Wait for Maven to sync — it downloads dependencies automatically (~30 MB, one time only).
 
 **3. Verify setup:**
+
 ```bash
 mvn test -Dtest=Task1_WarmupTest
 ```
+
 All 4 Task 1 tests should pass. If they do not, ask your instructor.
 
 ---
@@ -66,25 +69,27 @@ pbt-lab/
 
 ## Tasks
 
-| Task | File | Time | Type | Points |
-|------|------|------|------|--------|
-| Task 1 | `Task1_WarmupTest.java` | 20 min | Read & annotate | 2 pt |
-| Task 2 | `Task2_CountOccurrencesTest.java` | 35 min | Guided — fill TODOs | 5 pt |
-| Task 3 | `Task3_BoundedStackTest.java` | 40 min | Guided + Open | 5 pt |
-| Task 4 | `Task4_BuggyCalculatorTest.java` | 35 min | Find the bugs | 5 pt |
-| Task 5 | `Task5_FreeTaskTest.java` | 30 min | Free design | 3 pt |
-| **Total** | | **3 hours** | | **20 pt** |
+| Task      | File                              | Time        | Type                | Points    |
+| --------- | --------------------------------- | ----------- | ------------------- | --------- |
+| Task 1    | `Task1_WarmupTest.java`           | 20 min      | Read & annotate     | 2 pt      |
+| Task 2    | `Task2_CountOccurrencesTest.java` | 35 min      | Guided — fill TODOs | 5 pt      |
+| Task 3    | `Task3_BoundedStackTest.java`     | 40 min      | Guided + Open       | 5 pt      |
+| Task 4    | `Task4_BuggyCalculatorTest.java`  | 35 min      | Find the bugs       | 5 pt      |
+| Task 5    | `Task5_FreeTaskTest.java`         | 30 min      | Free design         | 3 pt      |
+| **Total** |                                   | **3 hours** |                     | **20 pt** |
 
 ---
 
 ## Running Tests
 
 **Run a single task:**
+
 ```bash
 mvn test -Dtest=Task2_CountOccurrencesTest
 ```
 
 **Run all tasks:**
+
 ```bash
 mvn test
 ```
