@@ -1,0 +1,7 @@
+target/
+.jqwik-database
+*.class
+.DS_Store
+.idea/
+*.iml
+.mvn/
